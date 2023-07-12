@@ -11,3 +11,11 @@
   background-color: var(--db-color-green);
   min-height: 20px;
 }
+
+/* body */
+
+/* blue header */
+
+#blue_header {
+  background-color: #1b72e8;
+}
