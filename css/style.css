@@ -4,6 +4,8 @@
   --db-color-green: rgba(0, 250, 0, 0.2);
   --db-color-yellow: rgba(254, 254, 2, 0.2);
   --db-color-purple: rgba(250, 0, 250, 0.2);
+
+  --nav_bar_height: 10vh;
 }
 
 /* debug rules */
@@ -17,6 +19,15 @@ h1 {
 }
 
 /* body */
+/* navbar */
+#nav_bar {
+  height: var(--nav_bar_height);
+  line-height: var(--nav_bar_height);
+}
+#page_sidebar,
+#page_content {
+  height: calc(100vh - var(--nav_bar_height));
+}
 
 section {
   margin: 10px 0;
