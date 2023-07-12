@@ -6,13 +6,21 @@
   --db-color-purple: rgba(250, 0, 250, 0.2);
 }
 
+/* debug rules */
 .ms_debug {
   border: 1px dashed red;
   background-color: var(--db-color-green);
   min-height: 20px;
 }
+h1 {
+  color: red;
+}
 
 /* body */
+
+section {
+  margin: 10px 0;
+}
 
 /* blue header */
 
