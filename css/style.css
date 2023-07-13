@@ -58,6 +58,10 @@ a {
     rgba(35, 40, 107, 1) 37%
   );
 }
+
+.icon_sidebar:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
 section {
   margin: 10px 0;
 }
