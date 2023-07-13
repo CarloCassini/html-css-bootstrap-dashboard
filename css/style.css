@@ -87,6 +87,11 @@ section {
 }
 /* cards */
 /* todo */
+/* image */
+.report_link {
+  text-decoration: underline;
+  color: #0000ff;
+}
 
 /* offcanvas */
 
