@@ -20,6 +20,10 @@ h1 {
 
 /* body */
 
+a {
+  color: currentColor;
+  text-decoration: none;
+}
 /* navbar */
 
 #nav_bar {
@@ -31,6 +35,12 @@ h1 {
 .Logo_image {
   height: 40px;
   max-width: auto;
+}
+#icon_bell {
+  color: gold;
+}
+.dropdown-menu.show {
+  z-index: 10;
 }
 
 /* sidebar */
@@ -56,6 +66,7 @@ section {
 
 #blue_header {
   background-color: #1b72e8;
+  z-index: 1;
 }
 
 /* offcanvas */
