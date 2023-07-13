@@ -14,9 +14,6 @@
   background-color: var(--db-color-green);
   min-height: 20px;
 }
-h1 {
-  color: red;
-}
 
 /* body */
 
@@ -71,6 +68,19 @@ section {
 #blue_header {
   background-color: #1b72e8;
   z-index: 1;
+}
+
+.col_header {
+  max-width: 33%;
+}
+
+.small_label {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  color: currentColor;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
 }
 
 /* offcanvas */
