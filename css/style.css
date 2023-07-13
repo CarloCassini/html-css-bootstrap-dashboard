@@ -37,6 +37,7 @@ h1 {
 #page_sidebar,
 #page_content {
   height: calc(100vh - var(--nav_bar_height));
+  overflow-x: hidden;
 }
 
 #page_sidebar {
