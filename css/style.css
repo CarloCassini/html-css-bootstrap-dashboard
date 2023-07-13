@@ -56,3 +56,12 @@ section {
 #blue_header {
   background-color: #1b72e8;
 }
+
+/* offcanvas */
+
+.offcanvas.offcanvas-end {
+  /* TODO - MANCA MAX-WIDTH FUNZIONANTE */
+  width: 700px;
+  overflow: auto;
+  overflow-x: hidden;
+}
