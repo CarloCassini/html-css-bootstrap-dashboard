@@ -5,7 +5,7 @@
   --db-color-yellow: rgba(254, 254, 2, 0.2);
   --db-color-purple: rgba(250, 0, 250, 0.2);
 
-  --nav_bar_height: 10vh;
+  --nav_bar_height: 60px;
 }
 
 /* debug rules */
@@ -19,16 +19,34 @@ h1 {
 }
 
 /* body */
+
 /* navbar */
+
 #nav_bar {
+  /* height: var(--nav_bar_height);
+  line-height: var(--nav_bar_height); */
+  background-color: white;
   height: var(--nav_bar_height);
-  line-height: var(--nav_bar_height);
 }
+.Logo_image {
+  height: 40px;
+  max-width: auto;
+}
+
+/* sidebar */
 #page_sidebar,
 #page_content {
   height: calc(100vh - var(--nav_bar_height));
 }
 
+#page_sidebar {
+  background: rgb(4, 4, 60);
+  background: linear-gradient(
+    228deg,
+    rgba(4, 4, 60, 1) 37%,
+    rgba(35, 40, 107, 1) 37%
+  );
+}
 section {
   margin: 10px 0;
 }
