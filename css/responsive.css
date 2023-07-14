@@ -2,6 +2,9 @@
   .ms_debug {
     background-color: var(--db-color-red);
   }
+  .hide_col_sm {
+    display: table-cell;
+  }
 }
 
 @media screen and (min-width: 768px) {

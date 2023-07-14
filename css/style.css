@@ -111,6 +111,9 @@ tr {
   background-color: inherit;
 }
 
+.hide_col_sm {
+  display: none;
+}
 /* tbody > tr:hover {
   background-color: red;
 } */
