@@ -92,6 +92,40 @@ section {
   text-decoration: underline;
   color: #0000ff;
 }
+/* table */
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  font-size: small;
+  vertical-align: middle;
+}
+
+.hover_shadow:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* regola per scurire le righe della tabella al passaggio  */
+.table > :not(caption) > * > * {
+  background-color: inherit;
+}
+
+/* tbody > tr:hover {
+  background-color: red;
+} */
+
+.circle_salmon {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+
+  background-color: salmon;
+  color: white;
+}
 
 /* offcanvas */
 
